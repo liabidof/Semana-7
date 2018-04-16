@@ -1,0 +1,78 @@
+body {
+	background: linear-gradient(to right, #FDFC47, #24FE41);
+}
+
+h1 {
+	text-align: center;
+	margin: 0.5em;
+	font-family: "Shrikhand";
+	font-size: 6em;
+	color: #eafff8;
+	text-shadow:5px 5px 10px #adadad;
+}
+
+.gif2 {
+	width: 100px;
+	height: 150px;
+	margin-left: 200px;
+
+
+}
+
+.gif3 {
+	width: 100px;
+	height: 150px;
+	float: right;
+	margin-right: 200px;
+}
+
+
+.gif {
+	opacity: 0;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 400px;
+	display: block;
+	-webkit-animation-name: gif;
+	-webkit-animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-delay: 3s;
+	
+}
+
+@-webkit-keyframes gif {
+	0% {opacity: 0;}
+	50% {opacity: 50;}
+	100% {opacity: 100;}
+}
+
+.circ1 {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	-webkit-animation-name: circulo;
+	-webkit-animation-duration: 3s;
+	animation-iteration-count: 1;
+}
+
+@-webkit-keyframes circulo {
+	 0%   {left:0px; top:0px;}
+    100%  {background-color:pink; opacity: 0.5; left:650px; top:400px;}
+}
+
+.circ2 {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	-webkit-animation-name: circulo2;
+	-webkit-animation-duration: 3s;
+	animation-iteration-count: 1;
+}
+
+@-webkit-keyframes circulo2 {
+	 0%   {right:0px; top:0px;}
+    100%  {background-color:pink; opacity: 0.5; right:650px; top:400px;}
+
+
